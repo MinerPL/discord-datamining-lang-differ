@@ -1,6 +1,6 @@
 {
   "name": "@minerpl/discord-datamining-lang-differ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "main": "differ.js",
