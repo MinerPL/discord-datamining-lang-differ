@@ -73,12 +73,14 @@ export function doWork(file1, file2, format) {
 
   const builtString = buildString(
     "strings",
+    FORMAT,
     addedStrings,
     updatedStrings,
     removedStrings
   );
   const builtEndpoint = buildString(
     "endpoints",
+    FORMAT,
     addedEndpoints,
     updatedEndpoints,
     removedEndpoints
@@ -123,8 +125,8 @@ export function diff(strings) {
 }
 
 export function buildString(
-  format,
   type,
+  format,
   addedStrings,
   updatedStrings,
   removedStrings
